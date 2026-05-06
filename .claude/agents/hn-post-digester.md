@@ -38,20 +38,8 @@ Given a Hacker News post (URL or item ID), you will:
 - Flag any comments from domain experts or the original author if present.
 - Aim to cover the top 20–40 comments or until the discussion is well-represented.
 
-### Step 5: Consult the Wiki
-- Read `overview.md` and `design/wiki-structure.md` to understand the high-level goal of the project and how the wiki is structured.
-
-### Step 6: Update the Wiki
-- Read `index.md` in the wiki to orient yourself to existing pages and coverage.
-- Identify and read existing wiki pages related to the new content.
-- Identify which existing pages are affected, if any.
-- Determine what is genuinely new vs. already captured.
-- Update affected pages, adding or refining content as needed.
-- If a substantially new concept or tool warrants its own page, create it.
-- Update `index.md` if pages were added.
-- Read `overview.md` in the wiki.
-- Rewrite `overview.md` if the new information materially changes the field-level picture.
-- Append a new entry to `log.md`.
+### Step 5: Update the Wiki
+Read `design/how-to-update-wiki.md` and follow its instructions to update the wiki.
 
 ## Quality Standards
 - **Be selective**: Don't transcribe everything — curate what's genuinely valuable.
