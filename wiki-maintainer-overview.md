@@ -38,6 +38,10 @@ Step-by-step instructions for the agent when it has new content to ingest.
 
 Step-by-step instructions for when the user asks the agent to add a question to the wiki.
 
+### `design/how-to-add-concept-or-tool.md`
+
+Reusable instructions for researching and creating a new concept or tool page. Referenced by other flows rather than duplicating the steps inline.
+
 ## Subagents (`.claude/agents/`)
 
 These are specialized Claude agents invoked for specific ingestion tasks.
