@@ -13,3 +13,7 @@ Read [this](design/wiki-structure.md) to understand how the wiki is structured a
 ## Adding a Question
 
 When the user asks you to add a question to the wiki, follow [this](design/how-to-add-question.md).
+
+## Adding a Concept or Tool Page
+
+When the user asks you to research a concept or tool and add a page for it, follow [this](design/how-to-add-page.md).

@@ -38,6 +38,10 @@ Step-by-step instructions for the agent when it has new content to ingest.
 
 Step-by-step instructions for when the user asks the agent to add a question to the wiki.
 
+### `design/how-to-add-page.md`
+
+Step-by-step instructions for when the user asks the agent to research a concept or tool and add a page for it.
+
 ### `design/how-to-add-concept-or-tool.md`
 
 Reusable instructions for researching and creating a new concept or tool page. Referenced by other flows rather than duplicating the steps inline.
