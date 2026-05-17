@@ -21,3 +21,7 @@ When the user asks you to research a concept or tool and add a page for it, foll
 ## Adding an Opinion
 
 When the user asks you to add an opinion to the wiki, follow [this](design/how-to-add-opinion.md).
+
+## Digesting Today's HN Top Posts
+
+When the user says "digest today's HN", follow [this](design/how-to-digest-hn-top-posts.md).

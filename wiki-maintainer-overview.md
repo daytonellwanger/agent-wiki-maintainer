@@ -50,6 +50,10 @@ Reusable instructions for researching and creating a new concept or tool page. R
 
 Step-by-step instructions for when the user asks the agent to add an opinion page to the wiki.
 
+### `design/how-to-digest-hn-top-posts.md`
+
+Step-by-step instructions for when the user says "digest today's HN". Fetches the top 50 HN stories, filters to posts from today that are relevant to AI agents, and delegates each to the `hn-post-digester` sub-agent.
+
 ## Subagents (`.claude/agents/`)
 
 These are specialized Claude agents invoked for specific ingestion tasks.
