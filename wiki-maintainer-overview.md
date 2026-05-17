@@ -46,6 +46,10 @@ Step-by-step instructions for when the user asks the agent to research a concept
 
 Reusable instructions for researching and creating a new concept or tool page. Referenced by other flows rather than duplicating the steps inline.
 
+### `design/how-to-add-opinion.md`
+
+Step-by-step instructions for when the user asks the agent to add an opinion page to the wiki.
+
 ## Subagents (`.claude/agents/`)
 
 These are specialized Claude agents invoked for specific ingestion tasks.

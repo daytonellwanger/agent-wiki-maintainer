@@ -13,8 +13,10 @@ agent-wiki/
 │   └── <concept>.md
 ├── tools/                 # Specific frameworks, libraries, and platforms
 │   └── <tool>.md
-└── questions/             # Open questions from the editor, answered from wiki content
-    └── <question>.md
+├── questions/             # Open questions from the editor, answered from wiki content
+│   └── <question>.md
+└── opinions/              # The editor's stated views and takes on topics in AI agents
+    └── <opinion>.md
 ```
 
 ## Page Types
@@ -41,6 +43,10 @@ Format:
 ## Questions
 
 - [When should you use multi-agent systems?](questions/when-to-use-multi-agent.md) — Tradeoffs between single-agent and multi-agent designs
+
+## Opinions
+
+- [Orchestrators should be thin](opinions/orchestrators-should-be-thin.md) — The case for keeping orchestration logic minimal
 ```
 
 ### `log.md`
@@ -113,6 +119,34 @@ have enough information to answer the question, leave this section as a note des
 ```
 
 Questions are answered solely by referencing existing wiki content. If a question cannot be fully answered, the Answer section notes what information is missing — which informs future research and ingestion.
+
+### `opinions/<opinion>.md`
+
+One page per opinion or take expressed by the editor. Examples: `orchestrators-should-be-thin.md`, `evals-are-underrated.md`. Each page follows this structure:
+
+```markdown
+# <Opinion stated as a declarative title>
+
+<The opinion written out in full, in the editor's own words.>
+
+## Context
+
+<Background needed to understand why this opinion is held. Link generously to relevant wiki pages.>
+
+## Reasoning
+
+<The argument for the opinion. Reference specific wiki pages where relevant.>
+
+## Counterarguments
+
+<Steelman the opposing view. Note any cases where the opinion may not hold.>
+
+## See Also
+
+- [Related Page](../concepts/related.md) — one-line description
+```
+
+Opinions represent the editor's personal views and are not required to be derived from wiki content — they may go beyond or even contradict the current consensus captured elsewhere in the wiki.
 
 ## Conventions
 
