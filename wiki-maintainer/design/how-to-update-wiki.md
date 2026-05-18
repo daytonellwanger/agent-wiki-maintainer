@@ -20,6 +20,4 @@ Check whether the wiki overview needs updating.
 - Read `overview.md` in the wiki.
 - Rewrite `overview.md` if the new information materially changes the field-level picture.
 
-Finally, update the log.
-
-- Append a new entry to `log.md`.
+Finally, if you updated or created any wiki pages, append a new entry to `log.md`.
