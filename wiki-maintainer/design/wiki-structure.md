@@ -53,6 +53,8 @@ Format:
 
 An append-only record of every ingest.
 
+Each log entry covers only what was actually added or updated — not what was considered and skipped. If a post was processed but nothing new was added to the wiki, write no log entry for it.
+
 Each log entry includes two summaries:
 
 **Technical**: files touched, links added or changed, new pages created.
