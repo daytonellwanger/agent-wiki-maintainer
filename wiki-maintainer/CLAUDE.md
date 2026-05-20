@@ -25,3 +25,7 @@ When the user asks you to add an opinion to the wiki, follow [this](design/how-t
 ## Digesting Today's HN Top Posts
 
 When the user says "digest today's HN", follow [this](design/how-to-digest-hn-top-posts.md).
+
+## Sending a Newsletter
+
+When the user asks you to send or generate a newsletter, follow [this](design/how-to-send-newsletter.md).

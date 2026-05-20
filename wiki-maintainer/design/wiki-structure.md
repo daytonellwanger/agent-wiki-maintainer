@@ -15,8 +15,10 @@ agent-wiki/
 │   └── <tool>.md
 ├── questions/             # Open questions from the editor, answered from wiki content
 │   └── <question>.md
-└── opinions/              # The editor's stated views and takes on topics in AI agents
-    └── <opinion>.md
+├── opinions/              # The editor's stated views and takes on topics in AI agents
+│   └── <opinion>.md
+└── newsletters/           # Archive of past newsletters; newest file = last-sent watermark
+    └── YYYY-MM-DD.md
 ```
 
 ## Page Types

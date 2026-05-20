@@ -54,6 +54,10 @@ Step-by-step instructions for when the user asks the agent to add an opinion pag
 
 Step-by-step instructions for when the user says "digest today's HN". Fetches the top 50 HN stories, filters to posts from today that are relevant to AI agents, and delegates each to the `hn-post-digester` sub-agent.
 
+### `design/how-to-send-newsletter.md`
+
+Step-by-step instructions for generating a newsletter on demand. Finds the last newsletter in `newsletters/` (the watermark), reads `log.md` entries since then, drafts a brief digest, reviews with the editor, and saves the result as `newsletters/YYYY-MM-DD.md`.
+
 ## Subagents (`.claude/agents/`)
 
 These are specialized Claude agents invoked for specific ingestion tasks.
