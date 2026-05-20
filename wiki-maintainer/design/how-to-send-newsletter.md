@@ -25,6 +25,14 @@ Draft a short newsletter based on the log entries:
 
 Do not try to cover everything in the log. Pick the updates with the most signal per the wiki's mission (see `design/wiki-structure.md`). The newsletter should be skimmable in under a minute.
 
+Drafting principles:
+
+- **No theme sentence.** Don't open with a sentence that tries to group all the updates into a single theme. Lead directly with the first item.
+- **Lead with principles, not particulars.** When a log entry uses a specific project or company as an example, open with the general insight and name the example afterward — not the other way around.
+- **Skip old news.** If a development was already widely known before the log entry was written, omit it.
+- **Skip business news.** Company acquisitions, funding rounds, and similar corporate events are generally not of interest to the newsletter's audience (people building agents). Skip them unless there's a direct technical implication.
+- **Skip wiki housekeeping.** Log entries that reflect the wiki catching up on existing knowledge (adding concept pages, tool pages, etc.) are not newsletter items — they are not new developments in the field.
+
 ## Step 5: Review with Editor
 
 Show the draft to the user. Give them a chance to revise the content or ask for changes before saving.
